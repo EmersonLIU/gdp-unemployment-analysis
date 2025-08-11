@@ -1,0 +1,10 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# STATA
+*.log
+*.dta
+
+# Other temp files
+__pycache__/
+*.pyc
