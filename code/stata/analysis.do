@@ -19,6 +19,8 @@ import delimited "data\raw\data.csv", clear
 
 // Simple regression: GDP on Unemployment
 regress gdp unemployment
+regress gdp unemployment year
 
 // Save results
 outreg2 using "output\tables\results.txt", replace
+
